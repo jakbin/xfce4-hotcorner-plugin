@@ -20,8 +20,8 @@ jobs:
 
     - name: Build
       run: |
-        wget https://github.com/christopherkobayashi/xfce4-hotcorner-plugin/archive/refs/tags/${{ env.version }}.tar.gz
-        tar -xvf xfce4-hotcorner-plugin-${{ env.version }}.tar.bz2
+        wget -O xfce4-hotcorner-plugin-${{ env.version }}.tar.gz https://github.com/christopherkobayashi/xfce4-hotcorner-plugin/archive/refs/tags/${{ env.version }}.tar.gz
+        tar -xvf xfce4-hotcorner-plugin-${{ env.version }}.tar.gz
         cd xfce4-hotcorner-plugin-${{ env.version }}
         mkdir usr
         ./configure --prefix=/home/runner/work/xfce4-hotcorner-plugin/xfce4-hotcorner-plugin/xfce4-hotcorner-plugin-${{ env.version }}/usr
