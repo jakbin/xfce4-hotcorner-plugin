@@ -1,0 +1,11 @@
+Package: xfce4-hotcorner-plugin
+Version: 0.0.4
+Architecture: amd64
+Maintainer: jakbin https://github.com/jakbin
+Installed-Size: 314
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.19.12), libxfce4panel-2.0-4 (>= 4.11.0), libxfce4ui-2-0 (>= 4.13.0), libnotify4
+Section: xfce
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/jakbin/xfce4-hotcorner-plugin
+Description: Xfce4 HotCorner Panel Plugin
